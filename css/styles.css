@@ -625,7 +625,6 @@ Achievements
 .cert-cont {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 2rem;
 
 }
 @media screen and (min-width: 992px) {
@@ -636,6 +635,11 @@ Achievements
   
 }
 }
+/* .cert-cont {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 10px;
+} */
 
 /*
 =============== 
