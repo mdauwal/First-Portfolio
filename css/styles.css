@@ -622,9 +622,13 @@ Skills
 Achievements
 ===============
 */
+.certificate {
+
+}
 .cert-cont {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  background: var(--clr-white);
 
 }
 @media screen and (min-width: 992px) {
