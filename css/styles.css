@@ -470,6 +470,7 @@ Services
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
+   }
   }
   
 }
@@ -618,9 +619,23 @@ Skills
  
 /*
 =============== 
-Timeline
+Achievements
 ===============
 */
+.cert-cont {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+
+}
+@media screen and (min-width: 992px) {
+    .cert-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  
+}
+}
 
 /*
 =============== 
